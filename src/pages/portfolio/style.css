@@ -19,6 +19,7 @@
     transition: 0.3s ease;
     font-size: 0;
     min-height: 300px;
+    cursor:pointer;
 }
 
 .po_item img {
@@ -42,7 +43,8 @@
     width: 100%;
     transition: 0.3s ease-in-out;
     opacity: 0;
-    border: 1px solid black;
+    border: 1px solid white;
+    color: black;
 }
 
 .po_item .content {
@@ -52,18 +54,17 @@
     font-size: 20px;
 }
 
-.po_item:hover {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
-}
+
 
 .po_item:hover .content {
     height: calc(100% - 30px);
     width: calc(100% - 30px);
     opacity: 1;
+    cursor:pointer;
 }
 
 .po_item:hover .content {
-    opacity: 1;
+    opacity: 0.5;
     color: var(--secondary-color);
 }
 
@@ -73,6 +74,7 @@
     padding: 4px 8px;
     text-align: center;
     font-size: 1rem;
+   
 }
 
 .po_item .content a:hover {

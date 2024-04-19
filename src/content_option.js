@@ -1,144 +1,147 @@
-const logotext = "JOHN";
+const logotext = "AMAN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Aman Bagrecha",
+    description: "I’m Aman Bagrecha  Full stack devloper,currently working in Hasedin bY Deloitte  and will pursue my MBA",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Aman Bagrecha",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am a fullstack developer",
+        second: "I want to learn about selling",
+        third: "I want to build something!",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "A fullstack developer with a passion for creating innovative solutions. Join me as I blend technology, creativity, and business acumen to build something extraordinary!",
+    your_img_url: "D:\MBA\react-portfolio\src\assets\images\karsten-winegeart-60GsdOMRFGc-unsplash.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit  about my self",
+    aboutme: "As I begin my MBA journey this year, I'm keen to deepen my knowledge of business strategies and sales. My journey so far has included sharing insightful research about companies on LinkedIn, and I look forward to continuing to grow my expertise.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Software Developer -1",
+        where: "HashedIn By Deloitte",
+        date: " Jan 2023 - June 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Software Developer Intern",
+        where: "Airveda",
+        date: "Sept 2021 - June 2022",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+]
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
+const skills = [
     {
-        name: "Djano",
+        name: "Django",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "ReactJs",
         value: 80,
     },
     {
-        name: "React",
+        name: "AngularJS",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Prompt Engineering",
         value: 85,
+    },
+    {
+        name: "PostgreSQL",
+        value: 85,
+    },
+    {
+        name: "Microsoft Excel",
+        value: 55,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
+    // {
+    //     title: "UI & UX Design",
+    //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    // },
+    // {
+    //     title: "Mobile Apps",
+    //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    // },
+    // {
+    //     title: "Wordpress Design",
+    //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    // },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://i.postimg.cc/cJCvbG9Q/resume.png",
+        link: "https://drive.google.com/file/d/1KWztht9THYAhCji3CEjPjneGkkk_V6Qt/view?usp=drive_link",
+        text: "View Resume"
+
+    },
+    {
+        img: "https://i.postimg.cc/jdLcfCrb/Untitled-design.png",
+        description: "GCP Certificate",
+        link: "https://drive.google.com/file/d/1rTgmNgUJh2Yr1gG7Gaam5EKxvO5U2xsB/view?usp=drive_link",
+        text:"View Certificate"
+    },
+    {
+        img: "https://i.postimg.cc/nrLCnndV/Untitled-design-2.png",
+        description: "Suncity POst",
+        link: "https://www.linkedin.com/posts/aman-bagrecha_sun-mobility-activity-7149644835610583040-E28c?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+        img: "https://picsum.photos/400/600",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/0QjTxQgy/Do-Check-out-m-1.png",
+        link: "https://drive.google.com/file/d/1j5PJWfkJWzAd_UscMcC_r_hlxF0UJ2Om/view?usp=drive_link",
+        text : "Excellence Award for my current Project"
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/bND3FZDY/CHeck-out-my-linkedin-post-regarding-blackstone.png",
+        description: "Blackstone",
+        link: "https://www.linkedin.com/posts/aman-bagrecha_blackstone-a-pe-firm-activity-7186779743000608768-3Sp2?utm_source=share&utm_medium=member_desktop",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://picsum.photos/400/600",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://picsum.photos/400/300",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://i.postimg.cc/4d1jz9zP/Do-Check-out-m.png",
+        text : "Spot Award from my organisation",
+        link: ""
+    },
+    {
+        img: "https://i.postimg.cc/MTvSGgmm/Untitled-design-1.png",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://www.linkedin.com/posts/aman-bagrecha_blusmart-businessinnovation-casestudies-activity-7147835696416804865-Bvyo?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+        img: "https://picsum.photos/400",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://picsum.photos/400/700",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "amanbagrecha@outlook.com",
+    YOUR_FONE: "(+91)9116998552",
+    description: "Fullstack developer starting an MBA journey, sharing company research and building innovative solutions",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +150,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/notamanbag",
+    linkedin: "https://www.linkedin.com/in/aman-bagrecha/",
 };
 export {
     meta,
