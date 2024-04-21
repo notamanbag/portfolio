@@ -73,70 +73,62 @@ const services = [
     // },
 ];
 
-const dataportfolio = [{
-        img: "https://i.postimg.cc/cJCvbG9Q/resume.png",
-        link: "https://drive.google.com/file/d/1KWztht9THYAhCji3CEjPjneGkkk_V6Qt/view?usp=drive_link",
-        text: "View Resume"
-
-    },
+const dataportfolio = [
     {
-        img: "https://i.postimg.cc/jdLcfCrb/Untitled-design.png",
+        img: "https://i.postimg.cc/SxpRVYqJ/electric-vehicles-1.png",
         description: "GCP Certificate",
         link: "https://drive.google.com/file/d/1rTgmNgUJh2Yr1gG7Gaam5EKxvO5U2xsB/view?usp=drive_link",
-        text:"View Certificate"
+        text:"Check out my Google  Certificate"
     },
-    {
-        img: "https://i.postimg.cc/nrLCnndV/Untitled-design-2.png",
-        description: "Suncity POst",
-        link: "https://www.linkedin.com/posts/aman-bagrecha_sun-mobility-activity-7149644835610583040-E28c?utm_source=share&utm_medium=member_desktop",
-    },
-    {
-        img: "https://picsum.photos/400/600",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
+    // {
+    //     img: "https://picsum.photos/400/600",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
     {
         img: "https://i.postimg.cc/0QjTxQgy/Do-Check-out-m-1.png",
         link: "https://drive.google.com/file/d/1j5PJWfkJWzAd_UscMcC_r_hlxF0UJ2Om/view?usp=drive_link",
         text : "Excellence Award for my current Project"
     },
-    {
-        img: "https://i.postimg.cc/bND3FZDY/CHeck-out-my-linkedin-post-regarding-blackstone.png",
-        description: "Blackstone",
-        link: "https://www.linkedin.com/posts/aman-bagrecha_blackstone-a-pe-firm-activity-7186779743000608768-3Sp2?utm_source=share&utm_medium=member_desktop",
-    },
+   
 
-    {
-        img: "https://picsum.photos/400/600",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
     {
         img: "https://i.postimg.cc/4d1jz9zP/Do-Check-out-m.png",
         text : "Spot Award from my organisation",
-        link: ""
+        link: "https://drive.google.com/file/d/1V384txteow4jvLX41xWbR9HNVS2zaBhO/view?usp=sharing"
+    },
+   
+];
+
+export const articlesPortfolio = [
+    {
+        img: "https://i.postimg.cc/bND3FZDY/CHeck-out-my-linkedin-post-regarding-blackstone.png",
+        text: "Click the image to read my article reagrding BlackStone a PE firm!",
+        link: "https://www.linkedin.com/posts/aman-bagrecha_blackstone-a-pe-firm-activity-7186779743000608768-3Sp2?utm_source=share&utm_medium=member_desktop",
     },
     {
         img: "https://i.postimg.cc/MTvSGgmm/Untitled-design-1.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        text: "Click the image to read my article reagrding BluSmart an electric cab company!",
         link: "https://www.linkedin.com/posts/aman-bagrecha_blusmart-businessinnovation-casestudies-activity-7147835696416804865-Bvyo?utm_source=share&utm_medium=member_desktop",
     },
     {
-        img: "https://picsum.photos/400",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/nrLCnndV/Untitled-design-2.png",
+        text: "Click the image to read my article reagrding SunMoblity electric vehicles company!",
+        link: "https://www.linkedin.com/posts/aman-bagrecha_sun-mobility-activity-7149644835610583040-E28c?utm_source=share&utm_medium=member_desktop",
     },
-    {
-        img: "https://picsum.photos/400/700",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
+
+]
 
 const contactConfig = {
     YOUR_EMAIL: "amanbagrecha@outlook.com",

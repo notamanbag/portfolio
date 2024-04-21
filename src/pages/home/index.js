@@ -6,6 +6,11 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 const logo = require('../../assets/images/back.jpg');
 export const Home = () => {
+
+  const resumeRedirect = ()=>{
+    const resumeURL = "https://drive.google.com/file/d/1KWztht9THYAhCji3CEjPjneGkkk_V6Qt/view?usp=drive_link"
+    window.open(resumeURL ,'_blank')
+  }
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -55,6 +60,12 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  <div id="button_r" onClick={()=>{resumeRedirect()}} className="ac_btn btn ">
+                      My Resume
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
                 </div>
               </div>
             </div>
