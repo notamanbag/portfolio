@@ -127,6 +127,12 @@ export const articlesPortfolio = [
         text: "Click the image to read my article reagrding SunMoblity electric vehicles company!",
         link: "https://www.linkedin.com/posts/aman-bagrecha_sun-mobility-activity-7149644835610583040-E28c?utm_source=share&utm_medium=member_desktop",
     },
+    {
+        img: " https://i.postimg.cc/RZDCtt33/ITC-1.png",
+        text: "Click the image to read my article comparing ITC vs ",
+        link: "https://www.linkedin.com/posts/aman-bagrecha_marketing-itc-hul-activity-7189627074754596864-9ToW?utm_source=share&utm_medium=member_desktop",
+    }
+   
 
 ]
 
