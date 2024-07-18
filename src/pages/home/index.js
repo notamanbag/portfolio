@@ -8,7 +8,7 @@ const logo = require('../../assets/images/back.jpg');
 export const Home = () => {
 
   const resumeRedirect = ()=>{
-    const resumeURL = "https://drive.google.com/file/d/1KWztht9THYAhCji3CEjPjneGkkk_V6Qt/view?usp=drive_link"
+    const resumeURL = "https://drive.google.com/file/d/1YqrNsfydO_qQyYyrouxtbvKsV9vO78nK/view?usp=drive_link"
     window.open(resumeURL ,'_blank')
   }
   return (
