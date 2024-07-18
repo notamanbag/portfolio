@@ -141,7 +141,7 @@ export const articlesPortfolio = [
         link: "https://www.linkedin.com/posts/aman-bagrecha_marketing-itc-hul-activity-7189627074754596864-9ToW?utm_source=share&utm_medium=member_desktop",
     },
     {
-        img: "https://postimg.cc/681d5t42",
+        img: "https://i.postimg.cc/25CTG5zw/bboat.png",
         text: "Click the image to read my article comparing Boat vs Noise",
         link: "https://www.linkedin.com/posts/aman-bagrecha_boat-vs-noise-activity-7199748546168774659-6UTq?utm_source=share&utm_medium=member_desktop",
     }
