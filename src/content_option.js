@@ -56,6 +56,14 @@ const skills = [
         name: "Microsoft Excel",
         value: 55,
     },
+    {
+        name:"Project Management",
+        value: 85,
+    },
+    {
+        name: "Digital Marketing",
+        value: 50,
+    }
 ];
 
 const services = [
